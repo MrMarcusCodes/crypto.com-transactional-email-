@@ -1,0 +1,248 @@
+<mjml>
+  <mj-head>
+  <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+       .section{
+    		background-color: #ffffff;
+    padding:0;
+    }
+    
+       .table{
+    display: table;
+     border-spacing: 2px; 
+    box-sizing: border-box;
+    }
+    
+  </mj-style>
+  <mj-style inline="inline">
+   .td-left{
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid; border-left: 1px solid; border-right: 1px solid;border-top: 1px solid; padding-bottom:10px; text-align: center; color: #818181;
+    }
+    .td-right{
+      font-size: 16px;
+    font-weight: normal;
+    border-bottom: 1px solid; border-left: 1px solid; border-right: 1px solid;border-top: 1px solid; padding-bottom:10px; text-align: center; color: #818181;
+    }
+    .footer-link{
+    color: white;
+    text-decoration: none;
+    font-size: 15px
+    }
+    .icons-size{
+    width: 30px;
+    height: 30px;
+    }
+    
+    .icons-size {
+        max-width: 350px;
+        padding: 1px 0 30px;
+      }
+  </mj-style>
+  </mj-head>
+  <mj-body width="630px">
+    <mj-wrapper background-color="#1C2B53" full-width="full-width">
+      <mj-raw>
+        <!--header-->
+      </mj-raw>
+    <mj-section css-class="header" padding="0">
+      <mj-column padding="0">
+      <mj-image href="https://crypto.com" src="http://127.0.0.1:5500/assets/crypto.png" width="200px" align="center" padding="19px 2px" alt="crypto.com logo">
+      </mj-image>
+      </mj-column>
+    </mj-section >
+      <mj-raw>
+        <!--greeting/ why we're messaging.-->
+      </mj-raw>
+    <mj-section css-class="section">
+      
+    </mj-section>
+    <mj-section css-class="section">
+    <mj-column>
+     <mj-text font-size="16px" color="#818181" padding-top="16px" padding-bottom="0">
+      Dear John Doe,
+     <br><br><br>
+      You successfully purchased 1000.0 VET at 17:20:47(UTC) on 9/04/2022. Please see the details below:
+     </mj-text>
+     </mj-column> 
+    </mj-section>
+       <mj-section css-class="section" >
+         <mj-column >
+           
+           <mj-text font-size="20px" font-weight="bold" color="#818181">VET Purchase Details
+           </mj-text>
+           <mj-text color="#818181" font-weight="bold">Transaction Reference Number: 36f2-36f2-36f2-36f2-36f2
+           </mj-text>
+         </mj-column>
+       </mj-section>
+       <mj-raw>
+        <!--trabsaction table-->
+      </mj-raw>
+       <mj-section css-class="section">
+         <mj-column padding="0 20px">
+       <mj-table css-class="table" border="1px solid #eee" table-layout="fixed">
+         <tr >
+          <td class="td-left">
+           Amount recived:
+           </td>
+         		<td class="td-right">
+           1000.0 VET
+           </td>
+         </tr>
+         
+          <tr>
+           <td class="td-left">
+          Exchange Rate:
+           </td>
+         		<td class="td-right">
+           1 VET = 0.049955741938 USD
+           </td>
+         </tr>
+         
+          <tr>
+           <<td class="td-left">
+          Amount Spent:
+           </td>
+         		<td class="td-right">
+           $49.96 USD
+           </td>
+         </tr>
+         
+         <tr>
+           <td class="td-left">
+          Fees charged:
+           </td>
+         		<td class="td-right">
+           $1.49 USD
+           </td>
+         </tr>
+         
+         <tr>
+          <td class="td-left">
+          Total Cost of Purchase:
+           </td>
+         		<td class="td-right">
+           $51.45 USD
+           </td>
+         </tr>
+         
+         <tr>
+<td class="td-left">
+          Method:
+           </td>
+         		<td class="td-right">
+           VISA: •••• •••• •••• 5352
+           </td>
+         </tr>
+         </mj-table>
+           </mj-column>
+       </mj-section>
+      <mj-raw>
+        <!--call to action-->
+      </mj-raw>
+      <mj-section css-class="section">
+        <mj-column>
+        <mj-button background-color="#129dff" color="white" border-radius="5px" font-size="20px" href="#">
+          CHECK YOUR BALANCE
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!--signature-->
+      </mj-raw>
+      <mj-section css-class="section">
+      <mj-column>
+        <mj-text css-class="text" align="left" color="#818181" font-size="16px">
+        If you have any questions, kindly reach out to us via the in-app chat. We're here to help.
+        </mj-text>
+          <mj-text css-class="text" align="left" color="#818181" font-size="16px" line-height="1.3">
+        Best regards,<br>The Crypto.‌com Team
+        </mj-text>
+            <mj-image src="http://127.0.0.1:5500/assets/signature.png" width="150px" align="left" padding-top="0px" alt="crypto.com logo">
+      </mj-image>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+          <mj-group>
+          <mj-column>
+          <mj-text color="white" align="center">
+            <a class="footer-link" href="https://crypto.com/" >Crypto.com</a>&nbsp;  &nbsp; |&nbsp;  &nbsp;
+            <a class="footer-link" href="https://crypto.com/trending">Blog</a>&nbsp;  &nbsp; |&nbsp;  &nbsp;
+            <a class="footer-link" href="https://crypto.com/">App</a>&nbsp;  &nbsp; |&nbsp;  &nbsp;
+            <a class="footer-link" href="https://crypto.com/exchange">Exchange</a>
+            </mj-text>  
+          </mj-column>
+                      </mj-group>
+        </mj-section>
+      <mj-raw>
+        <!--footer-->
+      </mj-raw>
+      
+        <mj-section padding="0">
+          <mj-group css-class="icons-size">
+            
+            <mj-column padding="0">
+              <mj-image padding="0 5px" href="https://twitter.com/cryptocom" src="http://127.0.0.1:5500/assets/tw.png" height="27px" width="27px" alt="Twitter logo" />
+            </mj-column>
+            <mj-column padding="0">
+              <mj-image padding="0 5px" href="https://www.facebook.com/CryptoComOfficial" src="http://127.0.0.1:5500/assets/fb.png" height="27px" width="27px" alt="Facebook logo" />
+            </mj-column>
+            <mj-column padding="0">
+              <mj-image padding="0 5px" href="https://www.instagram.com/CryptoComOfficial/" src="http://127.0.0.1:5500/assets/insta.png" height="27px" width="27px" alt="Instagram logo" />
+            </mj-column>
+            <mj-column padding="0">
+              <mj-image padding="0 5px" href="https://www.linkedin.com/company/cryptocom/?originalSubdomain=hk" src="http://127.0.0.1:5500/assets/in.png" height="27px" width="27px" alt="Linkedin logo" />
+            </mj-column>
+            <mj-column padding="0">
+              <mj-image padding="0 5px" href="https://youtube.com/shoify" src="http://127.0.0.1:5500/assets/yt.png" height="27px" width="27px" alt="Youtube logo" />
+            </mj-column>
+            <mj-column padding="0">
+              <mj-image padding="0 5px" href="https://www.reddit.com/r/Crypto_com" src="http://127.0.0.1:5500/assets/reddit.png" height="27px" width="27px" alt="reddit logo" />
+            </mj-column>
+            <mj-column padding="0">
+              <mj-image padding="0 5px" href="https://discord.com/invite/nsp9JTC" src="http://127.0.0.1:5500/assets/discord.png" height="27px" width="27px" alt="discord logo" />
+            </mj-column>
+            <mj-column padding="0">
+              <mj-image padding="0 5px" href="https://t.me/CryptoComOfficial" src="http://127.0.0.1:5500/assets/telegram.png" height="27px" width="27px" alt="telegram logo" />
+            </mj-column>
+            
+
+
+
+          </mj-group>
+        </mj-section>
+        <mj-section>
+        <mj-column>
+          <mj-text font-size="12px" color="#fff" align="center">
+          Contact us at:
+          </mj-text>
+          <mj-text font-size="12px" color="#fff" align="center" padding-top="0">
+          <a href="mailto:contact@crypto.com" style="color:#fff;margin:0;text-decoration: underline;">contact@crypto.‌com</a>
+          </mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text font-size="12px" color="#fff" align="center">
+          Copyright © 2022 Crypto.‌com, All Rights Reserved.
+          </mj-text>
+          </mj-column>
+        </mj-section>
+    </mj-wrapper>
+      <mj-section>
+      <mj-column>
+        <mj-text font-size="12px" color="#818181" align="center">
+        Crypto.‌com
+        </mj-text>
+         <mj-text font-size="12px" color="#818181" align="center">
+        1 ‌Raffles‌ Quay #‌09‌-‌06 Sin‌ga‌pore 04‌85‌83
+        </mj-text>
+      </mj-column>
+      </mj-section>
+      <mj-section>
+      </mj-section>
+  </mj-body>
+</mjml>
